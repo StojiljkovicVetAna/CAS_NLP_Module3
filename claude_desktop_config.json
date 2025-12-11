@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "goodreads-knowledge-graph": {
+      "command": "python3",
+      "args": [
+        "/storage/homefs/as23z124/NLP_CAS_M3_project/mcp_server_books.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/storage/homefs/as23z124/NLP_CAS_M3_project"
+      }
+    }
+  }
+}

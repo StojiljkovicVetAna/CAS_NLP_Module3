@@ -1,0 +1,78 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys and credentials
+*api_key*
+*apikey*
+*API_KEY*
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large data files (uncomment specific files you want to track)
+# *.csv
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+*.h5
+
+# Corpus outputs
+*_corpus/
+*_project_corpus/
+goodreads_corpus/
+
+# Generated files
+*.html
+*.log
+*.tmp
+*.bak
+
+# OS files
+Thumbs.db
+.DS_Store
